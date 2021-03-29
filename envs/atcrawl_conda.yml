@@ -1,0 +1,18 @@
+name: atcrawl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pyinstaller
+  - requests
+  - beautifulsoup4
+  - selenium
+  - lxml
+  - pandas
+  - numpy
+  - openpyxl
+  - xlsxwriter
+  - xlrd
+  - pyqt5
+  - pypiwin32

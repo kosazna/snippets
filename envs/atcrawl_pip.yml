@@ -1,0 +1,10 @@
+name: atcrawl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pyinstaller
+  - pip
+  - pip:
+    - -r file:atcrawl_requirements.txt

@@ -1,0 +1,14 @@
+name: atakl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pyinstaller
+  - pypiwin32
+  - pandas
+  - numpy
+  - openpyxl
+  - xlsxwriter
+  - xlrd
+  - pyqt5

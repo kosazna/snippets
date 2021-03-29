@@ -1,0 +1,27 @@
+{
+	"company_name": "NAMA",
+	"temp": {
+		"aznavouridis.k": "T",
+		"limperiou.k": "Y",
+		"kazna": "A",
+		"spare": "X",
+		"user1": "Y",
+		"vrountas.p": "Z"
+	},
+	"data": {
+		"aznavouridis.k": "K",
+		"limperiou.k": "K",
+		"kazna": "K",
+		"spare": "Y",
+		"user1": "K",
+		"vrountas.p": "K"
+	},
+	"users": {
+		"aznavouridis.k": "aznavouridis.k",
+		"kazna": "aznavouridis.k",
+		"user1": "aznavouridis.k",
+		"limperiou.k": "limperiou.k",
+		"spare": "kaperonis.s",
+		"vrountas.p": "vrountas.p"
+	}
+}

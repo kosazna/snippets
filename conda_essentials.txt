@@ -1,0 +1,20 @@
+- remove conda env:
+conda remove -n <env_name> --all
+
+- set conda-forge priority:
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+- if installing packages to a conda environment with pip:
+cd %CONDA_PREFIX%\Scripts
+pip install <package>
+
+- export yaml configuration:
+conda activate <env_name>
+conda env export > <file_name>.yml
+
+- create from yaml configuration:
+conda env create -f <file_name>.yml
+
+- create from yml configuration and override env name
+conda env create -f <file_name>.yml -n <env_name>

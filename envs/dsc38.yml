@@ -1,0 +1,27 @@
+name: dsc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - xlrd
+  - xlsxwriter
+  - jupyterlab
+  - notebook
+  - sqlalchemy
+  - mysql-connector-python
+  - selenium
+  - beautifulsoup4
+  - lxml
+  - unidecode
+  - autopep8
+  - pip:
+    - fake-useragent
+variables:
+  PYTHONPATH: D:\.temp\.dev\.aztool
