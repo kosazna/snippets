@@ -1,0 +1,183 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.openDefaultSettings": false,
+  "workbench.settings.useSplitJSON": false,
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "files.encoding": "utf8",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": false,
+  "git.enableSmartCommit": true,
+  "breadcrumbs.enabled": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".idea": true,
+    ".vscode": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.rulers": [80],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.wrappingIndent": "same",
+  "editor.scrollBeyondLastLine": false,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Mono'",
+  "editor.fontSize": 13,
+  "editor.formatOnSave": false,
+  "editor.autoIndent": "full",
+  "editor.renderWhitespace": "none",
+  "jupyter.alwaysTrustNotebooks": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "80"],
+  "python.autoComplete.addBrackets": true,
+  "python.analysis.typeCheckingMode": "off",
+  "python.languageServer": "Pylance",
+  "python.analysis.completeFunctionParens": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.tokenColorCustomizations": {
+    "keywords": "#DD208E",
+    "strings": "#2dc944",
+    "numbers": "#F1A244",
+    "types": "#FF2947",
+    "textMateRules": [
+      {
+        "scope": ["entity.name.function", "support.function.magic.python"],
+        "settings": {
+          "foreground": "#16F8AA"
+        }
+      },
+      {
+        "scope": "entity.name.type.class",
+        "settings": {
+          "foreground": "#F6A60E"
+        }
+      },
+      {
+        "scope": "variable.parameter.function-call.python",
+        "settings": {
+          "foreground": "#FFC42A",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.parameter.function",
+        "settings": {
+          "foreground": "#FF660E"
+        }
+      },
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "foreground": "#DD208E"
+        }
+      },
+      {
+        "scope": "meta.function-call.generic",
+        "settings": {
+          "foreground": "#536DFE"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class.python",
+          "meta.function.parameters.python"
+        ],
+        "settings": {
+          "foreground": "#CD43DE"
+        }
+      },
+      {
+        "scope": [
+          "constant.character.escape.python",
+          "constant.character.format.placeholder.other.python"
+        ],
+        "settings": {
+          "foreground": "#c72dad"
+        }
+      },
+      {
+        "scope": "constant.language.python",
+        "settings": {
+          "foreground": "#ce267a"
+        }
+      },
+      {
+        "scope": [
+          "variable.language.special.self.python",
+          "variable.parameter.function.language.special.self.python"
+        ],
+        "settings": {
+          "foreground": "#34E2F6"
+        }
+      },
+      {
+        "scope": "support.function.builtin.python",
+        "settings": {
+          "foreground": "#FF2947"
+        }
+      },
+      {
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": {
+          "foreground": "#63676e"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.bitwise.python",
+          "source.python keyword.operator.logical.python"
+        ],
+        "settings": {
+          "foreground": "#DD208E"
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name.html",
+        "settings": {
+          "foreground": "#7CD5F1",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.tag.html",
+        "settings": {
+          "foreground": "#FF6D7E"
+        }
+      },
+      {
+        "scope": ["string.quoted.double.html", "meta.attribute.method.html"],
+        "settings": {
+          "foreground": "#FFED72"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.js",
+          "meta.function-call.js",
+          "source.js"
+        ],
+        "settings": {
+          "foreground": "#2C83EF"
+        }
+      }
+    ]
+  }
+}
