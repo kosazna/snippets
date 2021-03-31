@@ -21,7 +21,8 @@ dependencies:
   - lxml
   - unidecode
   - autopep8
+  - tabulate
   - pip:
-    - fake-useragent
+      - fake-useragent
 variables:
   PYTHONPATH: D:\.temp\.dev\.aztool
